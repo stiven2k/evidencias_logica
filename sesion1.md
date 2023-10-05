@@ -1,13 +1,9 @@
 <!-- No borrar o modificar -->
+
 [Inicio](./index.md)
 
-## Sesión 1 
-
+## Sesión 1
 
 <!-- Su documentación aquí -->
 
-
-
-
-
-
+Aqui esta todo
