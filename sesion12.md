@@ -7,7 +7,6 @@
 <!-- Su documentación aquí -->
 
 
-
-
+### Revision y explicacion de algoritmos del proyecto integrador 
 
 

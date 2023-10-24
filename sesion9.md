@@ -7,7 +7,12 @@
 <!-- Su documentación aquí -->
 
 
+### Actividad: Ejecicios de métodos en Java
+
+- Resolver en parejas el ejercicio asignado por el docente
 
 
-### Realizado en clase 
+### Solucion 
+
+- Realizado en clase 
 
