@@ -1,8 +1,8 @@
 <!-- No borrar o modificar -->
+
 [Inicio](./index.md)
 
-## Sesión 8 
-
+## Sesión 8
 
 <!-- Su documentación aquí -->
 
@@ -16,11 +16,11 @@ Implementar los siguientes métodos:
 - Escribe un método que reciba una cadena de texto como parámetro y devuelva el número de palabras que contiene.
 - Escribe un método que reciba una cadena de texto como parámetro y devuelva una nueva cadena con todas las palabras en orden alfabético.
 
+## Solucion
 
+1.
 
-## Solucion 
-1. 
-```java 
+```java
 
 public class Main {
     public static void main(String[] args) {
@@ -39,9 +39,10 @@ public class Main {
     }
 }
 ```
-2. 
 
-```java 
+2.
+
+```java
 
 public class ContadorVocales {
     public static void main(String[] args) {
@@ -52,11 +53,11 @@ public class ContadorVocales {
 
     public static int contarVocales(String texto) {
         int contador = 0;
-       
+
         texto = texto.toLowerCase();
         for (int i = 0; i < texto.length(); i++) {
             char caracter = texto.charAt(i);
-            
+
             if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') {
                 contador++;
             }
@@ -66,9 +67,9 @@ public class ContadorVocales {
 }
 ```
 
-3. 
+3.
 
-```java 
+```java
 
 public class CambiarMayusculasMinisculas {
     public static void main(String[] args) {
@@ -78,7 +79,7 @@ public class CambiarMayusculasMinisculas {
     }
 
     public static String cambiarMayusculasMinisculas(String texto) {
-        
+
         StringBuilder resultado = new StringBuilder();
         for (int i = 0; i < texto.length(); i++) {
             char caracter = texto.charAt(i);
@@ -87,7 +88,7 @@ public class CambiarMayusculasMinisculas {
             } else if (Character.isLowerCase(caracter)) {
                 resultado.append(Character.toUpperCase(caracter));
             } else {
-                
+
                 resultado.append(caracter);
             }
         }
@@ -96,9 +97,9 @@ public class CambiarMayusculasMinisculas {
 }
 ```
 
-4. 
+4.
 
-```java 
+```java
 
 public class ContadorPalabras {
     public static void main(String[] args) {
@@ -108,17 +109,17 @@ public class ContadorPalabras {
     }
 
     public static int contarPalabras(String texto) {
-        
+
         String[] palabras = texto.split("\\s+");
-       
+
         return palabras.length;
     }
 }
 ```
 
-5. 
+5.
 
-```java 
+```java
 
 import java.util.Arrays;
 
@@ -130,18 +131,12 @@ public class OrdenarPalabras {
     }
 
     public static String ordenarPalabras(String texto) {
-       
+
         String[] palabras = texto.split("\\s+");
-        
+
         Arrays.sort(palabras);
 
         return String.join(" ", palabras);
     }
 }
 ```
-
-
-
-
-
-
