@@ -18,7 +18,7 @@ Implementar los siguientes métodos:
 
 ## Solucion
 
-1.
+-
 
 ```java
 
@@ -40,7 +40,7 @@ public class Main {
 }
 ```
 
-2.
+-
 
 ```java
 
@@ -67,7 +67,7 @@ public class ContadorVocales {
 }
 ```
 
-3.
+-
 
 ```java
 
@@ -97,7 +97,7 @@ public class CambiarMayusculasMinisculas {
 }
 ```
 
-4.
+-
 
 ```java
 
@@ -117,7 +117,7 @@ public class ContadorPalabras {
 }
 ```
 
-5.
+-
 
 ```java
 
